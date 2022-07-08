@@ -1,40 +1,62 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <?import javafx.scene.control.Button?>
-<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.PasswordField?>
 <?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
 <?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
 <?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
 
-<AnchorPane id="AnchorPane" prefHeight="351.0" prefWidth="321.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/17" fx:controller="gamelance.gl.FXMLDocumentController">
-   <children>
-      <Label fx:id="label" layoutX="73.0" layoutY="14.0" minHeight="16" minWidth="69" prefHeight="34.0" prefWidth="183.0" text="Create an account" textAlignment="CENTER">
-         <font>
-            <Font name="Arial Rounded MT Bold" size="20.0" />
-         </font>
-      </Label>
-      <Label layoutX="27.0" layoutY="74.0" text="Email or Phone Number">
-         <font>
-            <Font name="Arial Rounded MT Bold" size="12.0" />
-         </font>
-      </Label>
-      <TextField layoutX="26.0" layoutY="101.0" prefHeight="26.0" prefWidth="264.0" />
-      <Button fx:id="button" layoutX="238.0" layoutY="306.0" onAction="#handleButtonAction" prefHeight="26.0" prefWidth="51.0" text="Next">
-         <font>
-            <Font name="Arial Rounded MT Bold" size="12.0" />
-         </font>
-      </Button>
-      <TextField layoutX="26.0" layoutY="169.0" prefHeight="26.0" prefWidth="264.0" />
-      <Label layoutX="27.0" layoutY="215.0" text="Password">
-         <font>
-            <Font name="Arial Rounded MT Bold" size="12.0" />
-         </font>
-      </Label>
-      <TextField layoutX="26.0" layoutY="238.0" prefHeight="26.0" prefWidth="264.0" />
-      <Label layoutX="26.0" layoutY="146.0" text="Username">
-         <font>
-            <Font name="Arial Rounded MT Bold" size="12.0" />
-         </font>
-      </Label>
-   </children>
-</AnchorPane>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="456.0" prefWidth="723.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1">
+   <left>
+      <AnchorPane prefHeight="456.0" prefWidth="294.0" style="-fx-background-color: #ECECEB#9DA993;" BorderPane.alignment="CENTER">
+         <children>
+            <ImageView fitHeight="202.0" fitWidth="199.0" layoutX="52.0" layoutY="89.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../../../Downloads/tubes/—Pngtree—neon%20wind%20flat%20icon%20gamepad_5532441.png" />
+               </image>
+            </ImageView>
+            <Text layoutX="51.0" layoutY="300.0" strokeType="OUTSIDE" strokeWidth="0.0" text="GameLance">
+               <font>
+                  <Font name="ROGFonts-Regular" size="26.0" />
+               </font>
+            </Text>
+         </children>
+      </AnchorPane>
+   </left>
+   <right>
+      <AnchorPane prefHeight="456.0" prefWidth="426.0" style="-fx-background-color: #23424A;" BorderPane.alignment="CENTER">
+         <children>
+            <TextField layoutX="84.0" layoutY="106.0" prefHeight="34.0" prefWidth="250.0" promptText="Name" style="-fx-background-color: transparent; -fx-border-color: #FFFFFF; -fx-border-width: 0px 0px 2px 0px;" />
+            <PasswordField layoutX="84.0" layoutY="253.0" prefHeight="34.0" prefWidth="250.0" promptText="Password" style="-fx-background-color: transparent; -fx-border-color: #FFFFFF; -fx-border-width: 0px 0px 2px 0px;" />
+            <TextField layoutX="84.0" layoutY="180.0" prefHeight="34.0" prefWidth="250.0" promptText="Email or Phone Number" style="-fx-background-color: transparent; -fx-border-color: #FFFFFF; -fx-border-width: 0px 0px 2px 0px;" />
+            <Text fill="WHITE" layoutX="114.0" layoutY="70.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Create Account">
+               <font>
+                  <Font name="Arial Rounded MT Bold" size="25.0" />
+               </font>
+            </Text>
+            <Text fill="WHITE" layoutX="82.0" layoutY="110.0" strokeType="OUTSIDE" strokeWidth="0.0">
+               <font>
+                  <Font name="Arial Rounded MT Bold" size="15.0" />
+               </font>
+            </Text>
+            <Button layoutX="82.0" layoutY="375.0" mnemonicParsing="false" prefHeight="35.0" prefWidth="95.0" text="Sign Up">
+               <font>
+                  <Font name="Arial Rounded MT Bold" size="15.0" />
+               </font>
+            </Button>
+            <CheckBox layoutX="84.0" layoutY="321.0" mnemonicParsing="false" text="I agree to the Terms and Privacy Policy" textFill="WHITE" />
+            <Button layoutX="238.0" layoutY="375.0" mnemonicParsing="false" prefHeight="35.0" prefWidth="95.0" text="Sign In">
+               <font>
+                  <Font name="Arial Rounded MT Bold" size="15.0" />
+               </font>
+            </Button>
+         </children>
+      </AnchorPane>
+   </right>
+</BorderPane>
