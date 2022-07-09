@@ -11,10 +11,9 @@
 <?import javafx.scene.text.Font?>
 <?import javafx.scene.text.Text?>
 
-
-<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="456.0" prefWidth="723.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1">
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="456.0" prefWidth="723.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="gamelance.RegisterController">
    <left>
-      <AnchorPane prefHeight="456.0" prefWidth="294.0" style="-fx-background-color: #ECECEB#9DA993;" BorderPane.alignment="CENTER">
+      <AnchorPane prefHeight="456.0" prefWidth="294.0" style="-fx-background-color: #ECECEB#9DA993;" stylesheets="@register.css" BorderPane.alignment="CENTER">
          <children>
             <ImageView fitHeight="202.0" fitWidth="199.0" layoutX="52.0" layoutY="89.0" pickOnBounds="true" preserveRatio="true">
                <image>
