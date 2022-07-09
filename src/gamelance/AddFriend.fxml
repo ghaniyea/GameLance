@@ -89,12 +89,12 @@
                   <Font name="Arial Rounded MT Bold" size="12.0" />
                </font>
             </Button>
-            <ImageView fitHeight="24.0" fitWidth="26.0" layoutX="85.0" layoutY="243.0" pickOnBounds="true" preserveRatio="true">
+            <ImageView fitHeight="24.0" fitWidth="26.0" layoutX="85.0" layoutY="244.0" pickOnBounds="true" preserveRatio="true">
                <image>
                   <Image url="@../../../../../Downloads/people.png" />
                </image>
             </ImageView>
-            <Text layoutX="121.0" layoutY="260.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Forger Squad">
+            <Text layoutX="121.0" layoutY="261.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Forger Squad">
                <font>
                   <Font name="Arial Rounded MT Bold" size="15.0" />
                </font>
@@ -103,10 +103,26 @@
       </AnchorPane>
    </left>
    <center>
-      <AnchorPane prefHeight="439.0" prefWidth="361.0" style="-fx-background-color: #E4E5E8; -fx-border-color: #FFFFFF;" BorderPane.alignment="CENTER">
+      <AnchorPane prefHeight="439.0" prefWidth="361.0" style="-fx-background-color: #E4E5E8; -fx-border-color: #FFFFFF;" stylesheets="@addfriend.css" BorderPane.alignment="CENTER">
          <children>
-            <TextField layoutX="17.0" layoutY="14.0" prefHeight="26.0" prefWidth="353.0" promptText="Search" />
-         </children></AnchorPane>
+            <Label layoutX="22.0" layoutY="19.0" text="ADD FRIEND">
+               <font>
+                  <Font name="Arial Rounded MT Bold" size="15.0" />
+               </font>
+            </Label>
+            <Text layoutX="22.0" layoutY="59.0" strokeType="OUTSIDE" strokeWidth="0.0" text="You can add a friend with their GameLance ID">
+               <font>
+                  <Font size="13.0" />
+               </font>
+            </Text>
+            <TextField layoutX="22.0" layoutY="73.0" prefHeight="46.0" prefWidth="344.0" promptText="Enter ID user" />
+            <Button layoutX="107.0" layoutY="142.0" mnemonicParsing="false" text="Send Friend Request">
+               <font>
+                  <Font name="Arial Rounded MT Bold" size="15.0" />
+               </font>
+            </Button>
+         </children>
+      </AnchorPane>
    </center>
    <right>
       <AnchorPane prefHeight="200.0" prefWidth="240.0" style="-fx-background-color: #E4E5E8; -fx-border-color: #FFFFFF;" stylesheets="@HomePage.css" BorderPane.alignment="CENTER">

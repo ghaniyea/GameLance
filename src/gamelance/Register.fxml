@@ -11,16 +11,16 @@
 <?import javafx.scene.text.Font?>
 <?import javafx.scene.text.Text?>
 
-<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="456.0" prefWidth="723.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="gamelance.RegisterController">
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="507.0" prefWidth="826.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="gamelance.RegisterController">
    <left>
-      <AnchorPane prefHeight="456.0" prefWidth="294.0" style="-fx-background-color: #ECECEB#9DA993;" stylesheets="@register.css" BorderPane.alignment="CENTER">
+      <AnchorPane prefHeight="507.0" prefWidth="430.0" style="-fx-background-color: #ECECEB#9DA993;" stylesheets="@register.css" BorderPane.alignment="CENTER">
          <children>
-            <ImageView fitHeight="202.0" fitWidth="199.0" layoutX="52.0" layoutY="89.0" pickOnBounds="true" preserveRatio="true">
+            <ImageView fitHeight="202.0" fitWidth="199.0" layoutX="116.0" layoutY="111.0" pickOnBounds="true" preserveRatio="true">
                <image>
                   <Image url="@../../../../../Downloads/tubes/—Pngtree—neon%20wind%20flat%20icon%20gamepad_5532441.png" />
                </image>
             </ImageView>
-            <Text layoutX="51.0" layoutY="300.0" strokeType="OUTSIDE" strokeWidth="0.0" text="GameLance">
+            <Text layoutX="125.0" layoutY="315.0" strokeType="OUTSIDE" strokeWidth="0.0" text="GameLance">
                <font>
                   <Font name="ROGFonts-Regular" size="26.0" />
                </font>
@@ -29,12 +29,12 @@
       </AnchorPane>
    </left>
    <right>
-      <AnchorPane prefHeight="456.0" prefWidth="426.0" style="-fx-background-color: #23424A;" BorderPane.alignment="CENTER">
+      <AnchorPane prefHeight="507.0" prefWidth="422.0" style="-fx-background-color: #23424A;" BorderPane.alignment="CENTER">
          <children>
-            <TextField layoutX="84.0" layoutY="106.0" prefHeight="34.0" prefWidth="250.0" promptText="Name" style="-fx-background-color: transparent; -fx-border-color: #FFFFFF; -fx-border-width: 0px 0px 2px 0px;" />
-            <PasswordField layoutX="84.0" layoutY="253.0" prefHeight="34.0" prefWidth="250.0" promptText="Password" style="-fx-background-color: transparent; -fx-border-color: #FFFFFF; -fx-border-width: 0px 0px 2px 0px;" />
-            <TextField layoutX="84.0" layoutY="180.0" prefHeight="34.0" prefWidth="250.0" promptText="Email or Phone Number" style="-fx-background-color: transparent; -fx-border-color: #FFFFFF; -fx-border-width: 0px 0px 2px 0px;" />
-            <Text fill="WHITE" layoutX="114.0" layoutY="70.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Create Account">
+            <TextField layoutX="72.0" layoutY="104.0" prefHeight="34.0" prefWidth="250.0" promptText="Name" style="-fx-background-color: transparent; -fx-border-color: #FFFFFF; -fx-border-width: 0px 0px 2px 0px;" />
+            <PasswordField layoutX="73.0" layoutY="254.0" prefHeight="34.0" prefWidth="250.0" promptText="Password" style="-fx-background-color: transparent; -fx-border-color: #FFFFFF; -fx-border-width: 0px 0px 2px 0px;" />
+            <TextField layoutX="73.0" layoutY="181.0" prefHeight="34.0" prefWidth="250.0" promptText="Email or Phone Number" style="-fx-background-color: transparent; -fx-border-color: #FFFFFF; -fx-border-width: 0px 0px 2px 0px;" />
+            <Text fill="WHITE" layoutX="103.0" layoutY="69.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Create Account">
                <font>
                   <Font name="Arial Rounded MT Bold" size="25.0" />
                </font>
@@ -44,13 +44,13 @@
                   <Font name="Arial Rounded MT Bold" size="15.0" />
                </font>
             </Text>
-            <Button layoutX="82.0" layoutY="375.0" mnemonicParsing="false" prefHeight="35.0" prefWidth="95.0" text="Sign Up">
+            <Button layoutX="73.0" layoutY="375.0" mnemonicParsing="false" prefHeight="35.0" prefWidth="95.0" text="Sign Up">
                <font>
                   <Font name="Arial Rounded MT Bold" size="15.0" />
                </font>
             </Button>
-            <CheckBox layoutX="84.0" layoutY="321.0" mnemonicParsing="false" text="I agree to the Terms and Privacy Policy" textFill="WHITE" />
-            <Button layoutX="238.0" layoutY="375.0" mnemonicParsing="false" prefHeight="35.0" prefWidth="95.0" text="Sign In">
+            <CheckBox layoutX="73.0" layoutY="319.0" mnemonicParsing="false" text="I agree to the Terms and Privacy Policy" textFill="WHITE" />
+            <Button layoutX="227.0" layoutY="375.0" mnemonicParsing="false" prefHeight="35.0" prefWidth="95.0" text="Sign In">
                <font>
                   <Font name="Arial Rounded MT Bold" size="15.0" />
                </font>
