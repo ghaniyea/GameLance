@@ -6,4 +6,7 @@ Click nbfs://nbhost/SystemFileSystem/Templates/Other/CascadeStyleSheet.css to ed
     Created on : Jul 9, 2022, 8:20:42 AM
     Author     : ASUS
 */
-
+.button:pressed, .button:default:hover:pressed {
+  -fx-background-color: blue;
+  -fx-text-fill: #1d1d1d;
+}

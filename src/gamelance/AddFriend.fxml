@@ -22,22 +22,35 @@
             </Button>
             <Pane layoutX="-6.0" layoutY="2.0" prefHeight="440.0" prefWidth="82.0" style="-fx-border-color: #FFFFFF;">
                <children>
-                  <ImageView fitHeight="33.0" fitWidth="34.0" layoutX="26.0" layoutY="35.0" pickOnBounds="true" preserveRatio="true">
-                     <image>
-                        <Image url="@../../../../../Downloads/home.png" />
-                     </image>
-                  </ImageView>
-                  <ImageView fitHeight="32.0" fitWidth="40.0" layoutX="27.0" layoutY="90.0" pickOnBounds="true" preserveRatio="true">
-                     <image>
-                        <Image url="@../../../../../Downloads/add.png" />
-                     </image>
-                  </ImageView>
-                  <ImageView fitHeight="33.0" fitWidth="35.0" layoutX="27.0" layoutY="142.0" pickOnBounds="true" preserveRatio="true">
-                     <image>
-                        <Image url="@../../../../../Downloads/direction.png" />
-                     </image>
-                  </ImageView>
-                  <ImageView fitHeight="33.0" fitWidth="35.0" layoutX="27.0" layoutY="194.0" pickOnBounds="true" preserveRatio="true">
+                  <Button layoutX="18.0" layoutY="39.0" mnemonicParsing="false" style="-fx-background-color: #E4E5E8;">
+                     <graphic>
+                        <ImageView fitHeight="33.0" fitWidth="34.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../../../../../Downloads/home.png" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                  </Button>
+                  <Button layoutX="18.0" layoutY="94.0" mnemonicParsing="false" style="-fx-background-color: #E4E5E8;">
+                     <graphic>
+                        <ImageView fitHeight="32.0" fitWidth="40.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../../../../../Downloads/add.png" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                  </Button>
+                  <Button layoutX="18.0" layoutY="146.0" mnemonicParsing="false" style="-fx-background-color: #E4E5E8;">
+                     <graphic>
+                        <ImageView fitHeight="33.0" fitWidth="35.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../../../../../Downloads/direction.png" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                  </Button>
+                  <Button layoutX="27.0" layoutY="198.0" mnemonicParsing="false" style="-fx-background-color: #E4E5E8;" />
+                  <ImageView fitHeight="33.0" fitWidth="35.0" layoutX="26.0" layoutY="205.0" pickOnBounds="true" preserveRatio="true">
                      <image>
                         <Image url="@../../../../../Downloads/user.png" />
                      </image>
