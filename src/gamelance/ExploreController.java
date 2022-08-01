@@ -11,30 +11,39 @@ import javafx.fxml.FXML;
 import javafx.fxml.Initializable;
 import javafx.scene.control.Button;
 import javafx.scene.control.TextField;
-import javafx.scene.image.ImageView;
-import javafx.scene.input.MouseEvent;
+import javafx.scene.control.cell.PropertyValueFactory;
 
 /**
  * FXML Controller class
  *
  * @author ASUS
  */
-public class RoomChatController implements Initializable {
+public class ExploreController implements Initializable {
 
     @FXML
-    private Button buttonAddFriend;
+    private Button chat;
     @FXML
     private Button buttonHome;
     @FXML
-    private Button buttonProfil;
+    private Button buttonAddRoom;
     @FXML
-    private TextField tfMessage;
+    private Button buttonProfil;
     @FXML
     private Button buttonBack;
     @FXML
-    private Button buttonAddRoom;
+    private Button buttonAddFriend;
     @FXML
-    private Button buttonExplore;
+    private TextField tfExplore;
+    @FXML
+    private Button buttonValorant;
+    @FXML
+    private Button buttonMinecraft;
+    @FXML
+    private Button buttonGenshin;
+    @FXML
+    private Button buttonTerraria;
+    @FXML
+    private Button buttonMrBeast;
 
     /**
      * Initializes the controller class.
@@ -45,15 +54,15 @@ public class RoomChatController implements Initializable {
     }    
 
     @FXML
-    private void aAddFriend(ActionEvent event) {
+    private void Chat(ActionEvent event) {
         modelHalaman h = new modelHalaman();
-        h.pindahHalaman(event, "AddFriend.fxml");
+        h.pindahHalaman(event, "RoomChat.fxml");
     }
 
     @FXML
-    private void Home(ActionEvent event) {
+    private void addRoom(ActionEvent event) {
         modelHalaman h = new modelHalaman();
-        h.pindahHalaman(event, "HomePage.fxml");
+        h.pindahHalaman(event, "AddRoom.fxml");
     }
 
     @FXML
@@ -69,15 +78,9 @@ public class RoomChatController implements Initializable {
     }
 
     @FXML
-    private void AddRoom(ActionEvent event) {
+    private void aAddFriend(ActionEvent event) {
         modelHalaman h = new modelHalaman();
-        h.pindahHalaman(event, "AddRoom.fxml");
-    }
-
-    @FXML
-    private void Explore(ActionEvent event) {
-        modelHalaman h = new modelHalaman();
-        h.pindahHalaman(event, "Explore.fxml");
+        h.pindahHalaman(event, "AddFriend.fxml");
     }
     
 }

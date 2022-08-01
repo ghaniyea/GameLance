@@ -10,6 +10,7 @@ import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.fxml.Initializable;
 import javafx.scene.control.Button;
+import javafx.scene.control.PasswordField;
 import javafx.scene.control.TextField;
 
 /**
@@ -17,18 +18,16 @@ import javafx.scene.control.TextField;
  *
  * @author ASUS
  */
-public class PageKategoriController implements Initializable {
+public class Register1Controller implements Initializable {
 
     @FXML
-    private Button buttonHome;
+    private Button buttonSignUp;
     @FXML
-    private Button buttonKategori;
+    private TextField tfNama;
     @FXML
-    private Button buttonBahasa;
+    private PasswordField tfPassword;
     @FXML
-    private TextField tfSearch;
-    @FXML
-    private Button buttonSave;
+    private TextField tfEmail;
 
     /**
      * Initializes the controller class.
@@ -39,23 +38,9 @@ public class PageKategoriController implements Initializable {
     }    
 
     @FXML
-    private void Home(ActionEvent event) {
-        modelHalaman h = new modelHalaman();
-        h.pindahHalaman(event, "HomePage.fxml");
-    }
-
-    @FXML
-    private void Kategori(ActionEvent event) {
-    }
-
-    @FXML
-    private void Bahasa(ActionEvent event) {
-        modelHalaman h = new modelHalaman();
-        h.pindahHalaman(event, "PageBahasa.fxml");
-    }
-
-    @FXML
-    private void Save(ActionEvent event) {
+    private void SignUp(ActionEvent event) {
+    modelHalaman h = new modelHalaman();
+    h.pindahHalaman(event, "HomePage.fxml");
     }
     
 }
